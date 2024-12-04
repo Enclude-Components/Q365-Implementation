@@ -1,4 +1,3 @@
-@IsTest
 @SuppressWarnings('PMD.AvoidGlobalModifier')
 global class SharepointDriveItem {
     @AuraEnabled

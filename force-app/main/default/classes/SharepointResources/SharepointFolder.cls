@@ -1,4 +1,3 @@
-@IsTest
 @SuppressWarnings('PMD.AvoidGlobalModifier')
 global class SharepointFolder {
     @AuraEnabled

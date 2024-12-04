@@ -1,4 +1,3 @@
-@IsTest
 @SuppressWarnings('PMD.AvoidGlobalModifier')
 global with sharing class Sharepoint {
     private static final SharepointSettings SHAREPOINT_SETTINGS = new SharepointSettings();

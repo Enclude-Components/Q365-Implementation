@@ -1,4 +1,3 @@
-@IsTest
 @SuppressWarnings('PMD.AvoidGlobalModifier')
 global with sharing class SharepointCreateFolderInvocable {
 
