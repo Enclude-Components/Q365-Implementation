@@ -9,8 +9,8 @@ project:
     source_format: sfdx
 
     dependencies:
-        # Q365!
-        - version_id: '04tKA000000XzC5'
+        # Q!365
+        - version_id: '04t69000001WiiuAAC'
 
 tasks:
     run_tests:
