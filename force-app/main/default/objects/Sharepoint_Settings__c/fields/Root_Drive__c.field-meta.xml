@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Root_Drive__c</fullName>
+    <description>The base path of the Sharepoint drive (without trailing slash.) Requests to create folders/files will be made relative to this.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The base path of the Sharepoint drive (without trailing slash.) Requests to create folders/files will be made relative to this.</inlineHelpText>
+    <label>Root Drive</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
