@@ -25,7 +25,10 @@ global with sharing class Sharepoint {
     }
     global static SharepointSearchResponse searchFolder(String query) {
         String basePath = getBasePath();
-        query = EncodingUtil.urlEncode(query, 'UTF-8');
+        query = EncodingUtil.urlEncode(
+            query.replace('\'', '\'\''),
+            'UTF-8'
+        );
         HttpRequest req = new HttpRequest();
         req.setMethod('GET');
         HttpResponse res = QKomGraphUtils.send(
